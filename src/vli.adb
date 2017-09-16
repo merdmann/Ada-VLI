@@ -6,7 +6,6 @@ package body VLI is
  -----------
  -- Add   --
  -----------
-   
 function Add( a : VLI_Type; b : VLI_Type ) return VLI_Type is 
       result    : VLI_Type := VLI_NULL;
       d         : Integer := 0;
