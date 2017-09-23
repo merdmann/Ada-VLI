@@ -11,7 +11,7 @@ begin
     -- B := Add(A,Increment);
  
    for i in 1..30 loop
-      B := Add(B,Increment);
-      Put_line("[" & To_String(B) & "] =" & "A[" & To_String(A) & "] + [" & To_String(Increment) & "]");
+      B := B + Increment;
+      Put_line("[" & To_String(B) & "] =" & "B[" & To_String(B) & "] + [" & To_String(Increment) & "]");
    end loop;
 end;
